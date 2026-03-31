@@ -24,8 +24,7 @@ Each order has:
       SERVE
       CANCEL {number}
 
-
-      Sample Input 1:
+    Sample Input 1:
       9
       ORDER 77 creme brulee
       ORDER 12 pie
@@ -42,4 +41,3 @@ Each order has:
       macarons 23 served!
       creme brulee 77 served!
       no orders to serve!
-*/
