@@ -1,7 +1,7 @@
 # STRUKDAT_MiniProject_Bakery_System
 Lina Fatima Azzahra Badr NRP 5025251168
 
-You are in-charge of running a popular walk-in bakery. Your team can take n amount of commands at a time, the commands contain customer orders and service operations. Every order contains an ___order number___ and a ___pastry name___. Different types of baked goods are handled using different data structures.
+You are in-charge of running a popular walk-in bakery. Your team can take ___n___ amount of commands at a time, the commands contain customer orders and service operations. Every order contains an ___order number___ and a ___pastry name___. Different types of baked goods are handled using different data structures.
 
 Orders are categorized as follows:
    - Orders for ___"macarons"___ are handled using a deque
