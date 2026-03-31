@@ -4,8 +4,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#define max 20 // max number of commands
-#define name_len 101 // max length for pastry names
+// max number of commands
+#define max 20
+// max length for pastry names
+#define name_len 101
 
 // struct for storing orders
 typedef struct {
