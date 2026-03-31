@@ -1,5 +1,5 @@
 # STRUKDAT_MiniProject_Bakery_System
-Lina Fatima Azzahra Badr 5025251168
+Lina Fatima Azzahra Badr NRP 5025251168
 
 You are in-charge of running a popular walk-in bakery. Your team can take n amount of commands at a time, the commands contain customer orders and service operations. Every order contains an ___order number___ and a ___pastry name___. Different types of baked goods are handled using different data structures.
 
