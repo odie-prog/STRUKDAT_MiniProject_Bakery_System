@@ -8,7 +8,7 @@ Orders are categorized as follows:
         - If the ___order number___ is even, the order will be pushed to the front.
         - If the ___order number___ is odd, the order will be pushed to the back.
    - Orders for ___"bread"___ are handled using a queue, served in FIFO order.
-   - Orders for _other pastries_ are handled using a stack, served in LIFO order.
+   - Orders for __other pastries__ are handled using a stack, served in LIFO order.
 
 The serving hierarchy is macarons > bread > other.
 
@@ -16,27 +16,50 @@ Macarons are always served before bread, and bread is always served before other
 
 Customers can also cancel their orders using their ___order number___. Cancelling an order will remove it from the data structure it is occupying.
 
-Constraints:
+### Constraints:
 - 1 <= n <= 100
 - Maximum orders at a time <= 20
 - 1 <= order_number <= 99
 - Pastry name_length <= 100 characters
 - Order numbers are not guaranteed to be unique
 
-    Sample Input 1:
-      9
-      ORDER 77 creme brulee
-      ORDER 12 pie
-      ORDER 46 macarons
-      ORDER 23 macarons
-      CANCEL 12
-      SERVE
-      SERVE
-      SERVE
-      SERVE
 
-      Sample Output 1:
-      macarons 46 served!
-      macarons 23 served!
-      creme brulee 77 served!
-      no orders to serve!
+
+### Sample Input 1
+```
+10
+ORDER 91 croissant
+ORDER 24 bread
+ORDER 44 macarons
+ORDER 15 cake
+ORDER 31 macarons
+SERVE
+SERVE
+SERVE
+SERVE
+SERVE
+```
+### Sample Output 1
+```
+macarons 44 served!
+macarons 31 served!
+bread 24 served!
+cake 15 served!
+croissant 91 served!
+```
+
+
+### Sample Input 2
+```
+5
+ORDER 21 bread
+ORDER 17 pie
+CANCEL 21
+SERVE
+SERVE
+```
+### Sample Output 2
+```
+pie 17 served!
+no orders to serve!
+```
